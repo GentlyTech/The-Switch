@@ -11,10 +11,8 @@
 		A100E1322352472B002C5E1D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A100E1312352472B002C5E1D /* SceneDelegate.swift */; };
 		A100E1342352472B002C5E1D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A100E1332352472B002C5E1D /* ViewController.swift */; };
 		A100E1372352472B002C5E1D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A100E1352352472B002C5E1D /* Main.storyboard */; };
-		A100E1392352472D002C5E1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A100E1382352472D002C5E1D /* Assets.xcassets */; };
 		A100E13C2352472D002C5E1D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A100E13A2352472D002C5E1D /* LaunchScreen.storyboard */; };
-		A100E1472352472D002C5E1D /* The_SwitchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A100E1462352472D002C5E1D /* The_SwitchTests.swift */; };
-		A100E1522352472D002C5E1D /* The_SwitchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A100E1512352472D002C5E1D /* The_SwitchUITests.swift */; };
+		A17FC596239B629000E3F88B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A17FC595239B629000E3F88B /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,20 +33,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A100E12C2352472B002C5E1D /* The Switch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Switch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A100E12C2352472B002C5E1D /* Flashlight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flashlight.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A100E12F2352472B002C5E1D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A100E1312352472B002C5E1D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		A100E1332352472B002C5E1D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A100E1362352472B002C5E1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A100E1382352472D002C5E1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A100E13B2352472D002C5E1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A100E13D2352472D002C5E1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A100E1422352472D002C5E1D /* The SwitchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The SwitchTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A100E1462352472D002C5E1D /* The_SwitchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_SwitchTests.swift; sourceTree = "<group>"; };
-		A100E1482352472D002C5E1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A100E14D2352472D002C5E1D /* The SwitchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The SwitchUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A100E1512352472D002C5E1D /* The_SwitchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_SwitchUITests.swift; sourceTree = "<group>"; };
-		A100E1532352472D002C5E1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A17FC595239B629000E3F88B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,8 +74,6 @@
 			isa = PBXGroup;
 			children = (
 				A100E12E2352472B002C5E1D /* The Switch */,
-				A100E1452352472D002C5E1D /* The SwitchTests */,
-				A100E1502352472D002C5E1D /* The SwitchUITests */,
 				A100E12D2352472B002C5E1D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -89,7 +81,7 @@
 		A100E12D2352472B002C5E1D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A100E12C2352472B002C5E1D /* The Switch.app */,
+				A100E12C2352472B002C5E1D /* Flashlight.app */,
 				A100E1422352472D002C5E1D /* The SwitchTests.xctest */,
 				A100E14D2352472D002C5E1D /* The SwitchUITests.xctest */,
 			);
@@ -103,29 +95,11 @@
 				A100E1312352472B002C5E1D /* SceneDelegate.swift */,
 				A100E1332352472B002C5E1D /* ViewController.swift */,
 				A100E1352352472B002C5E1D /* Main.storyboard */,
-				A100E1382352472D002C5E1D /* Assets.xcassets */,
 				A100E13A2352472D002C5E1D /* LaunchScreen.storyboard */,
 				A100E13D2352472D002C5E1D /* Info.plist */,
+				A17FC595239B629000E3F88B /* Assets.xcassets */,
 			);
 			path = "The Switch";
-			sourceTree = "<group>";
-		};
-		A100E1452352472D002C5E1D /* The SwitchTests */ = {
-			isa = PBXGroup;
-			children = (
-				A100E1462352472D002C5E1D /* The_SwitchTests.swift */,
-				A100E1482352472D002C5E1D /* Info.plist */,
-			);
-			path = "The SwitchTests";
-			sourceTree = "<group>";
-		};
-		A100E1502352472D002C5E1D /* The SwitchUITests */ = {
-			isa = PBXGroup;
-			children = (
-				A100E1512352472D002C5E1D /* The_SwitchUITests.swift */,
-				A100E1532352472D002C5E1D /* Info.plist */,
-			);
-			path = "The SwitchUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,7 +119,7 @@
 			);
 			name = "The Switch";
 			productName = "The Switch";
-			productReference = A100E12C2352472B002C5E1D /* The Switch.app */;
+			productReference = A100E12C2352472B002C5E1D /* Flashlight.app */;
 			productType = "com.apple.product-type.application";
 		};
 		A100E1412352472D002C5E1D /* The SwitchTests */ = {
@@ -233,7 +207,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A100E13C2352472D002C5E1D /* LaunchScreen.storyboard in Resources */,
-				A100E1392352472D002C5E1D /* Assets.xcassets in Resources */,
+				A17FC596239B629000E3F88B /* Assets.xcassets in Resources */,
 				A100E1372352472B002C5E1D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,7 +243,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A100E1472352472D002C5E1D /* The_SwitchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,7 +250,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A100E1522352472D002C5E1D /* The_SwitchUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,12 +409,13 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = EHE76T9HWJ;
 				INFOPLIST_FILE = "The Switch/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Yep-Development-Studios.The-Switch";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Flashlight;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -455,12 +428,13 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = EHE76T9HWJ;
 				INFOPLIST_FILE = "The Switch/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Yep-Development-Studios.The-Switch";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Flashlight;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
